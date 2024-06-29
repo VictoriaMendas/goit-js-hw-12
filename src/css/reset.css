@@ -14,8 +14,9 @@ p:last-child {
 }
 
 ul {
-  margin: 0;
-  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
   list-style: none;
 }
 
@@ -27,9 +28,8 @@ a {
 button {
   cursor: pointer;
 }
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
